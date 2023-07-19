@@ -6,8 +6,6 @@ context.textBaseline = "middle";
 context.fillStyle = "white";
 context.fillText("B", 8, 17);
 
-
-
 function convert(red, green, blue) {
     return red.toString(16).padStart(2, '0') + green.toString(16).padStart(2, '0') + blue.toString(16).padStart(2, '0')
 }
